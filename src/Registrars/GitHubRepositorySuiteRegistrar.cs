@@ -1,6 +1,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Soenneker.GitHub.Repositories.Issues.Registrars;
 using Soenneker.GitHub.Repositories.PullRequests.Registrars;
+using Soenneker.GitHub.Repositories.Rulesets.Registrars;
 using Soenneker.GitHub.Repositories.Secrets.Registrars;
 
 namespace Soenneker.GitHub.Repositories.Suite.Registrars;
@@ -15,6 +16,7 @@ public static class GitHubRepositorySuiteRegistrar
         services.AddGitHubRepositoriesPullRequestsUtilAsSingleton();
         services.AddGitHubRepositoriesSecretsUtilAsSingleton();
         services.AddGitHubRepositoriesIssuesUtilAsSingleton();
+        services.AddGitHubRepositoriesRulesetsUtilAsSingleton();
 
         return services;
     }
@@ -24,6 +26,7 @@ public static class GitHubRepositorySuiteRegistrar
         services.AddGitHubRepositoriesPullRequestsUtilAsScoped();
         services.AddGitHubRepositoriesSecretsUtilAsScoped();
         services.AddGitHubRepositoriesIssuesUtilAsScoped();
+        services.AddGitHubRepositoriesRulesetsUtilAsScoped();
 
         return services;
     }
