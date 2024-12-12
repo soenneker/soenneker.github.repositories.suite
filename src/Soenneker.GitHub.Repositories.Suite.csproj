@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net9.0</TargetFrameworks>
+        <Nullable>enable</Nullable>
+        <Platforms>AnyCPU</Platforms>
+        <NoWarn>$(NoWarn);1591</NoWarn>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <Description>A comprehensive suite of utility libraries for GitHub's Repository related operations</Description>
+        <Version Condition="'$(BUILD_VERSION)' == ''">3.0.0</Version>
+        <Version Condition="'$(BUILD_VERSION)' != ''">$(BUILD_VERSION)</Version>
+        <AssemblyName>Soenneker.GitHub.Repositories.Suite</AssemblyName>
+        <PackageId>Soenneker.GitHub.Repositories.Suite</PackageId>
+        <PackageTags>github repositories suite repository repo utilities util issues runs actions builds pull requests githubrepositorysuite csharp dotnet c# .net</PackageTags>
+        <Copyright>Copyright © 2024 Jake Soenneker</Copyright>
+        <Authors>Jake Soenneker</Authors>
+        <Company>https://soenneker.com</Company>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <EmbedUntrackedSources>true</EmbedUntrackedSources>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <IsPackable>true</IsPackable>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/soenneker/soenneker.github.repositories.suite</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/soenneker/soenneker.github.repositories.suite</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryBranch>main</RepositoryBranch>
+        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <LangVersion>latest</LangVersion>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageIcon>icon.png</PackageIcon>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <None Include="..\CONTRIBUTING.md" Link="CONTRIBUTING.md" />
+        <None Include="..\README.md" Pack="true" PackagePath="\" />
+        <None Include="..\LICENSE" Pack="true" PackagePath="\" />
+        <None Include="..\icon.png" Pack="true" PackagePath="\" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <PackageReference Include="Soenneker.GitHub.Artifacts" Version="3.0.167" />
+      <PackageReference Include="Soenneker.GitHub.BranchPolicies" Version="3.0.99" />
+      <PackageReference Include="Soenneker.GitHub.Repositories.PullRequests" Version="3.0.9" />
+      <PackageReference Include="Soenneker.GitHub.Repositories.Secrets" Version="3.0.47" />
+    </ItemGroup>
+</Project>
