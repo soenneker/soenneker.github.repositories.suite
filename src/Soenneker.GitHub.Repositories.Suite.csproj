@@ -42,7 +42,7 @@
     </ItemGroup>
     
     <ItemGroup>
-      <PackageReference Include="Soenneker.GitHub.Repositories.Issues" Version="3.0.43" />
+      <PackageReference Include="Soenneker.GitHub.Repositories.Issues" Version="3.0.44" />
       <PackageReference Include="Soenneker.GitHub.Repositories.PullRequests" Version="3.0.68" />
       <PackageReference Include="Soenneker.GitHub.Repositories.Readmes" Version="3.0.55" />
       <PackageReference Include="Soenneker.GitHub.Repositories.Rulesets" Version="3.0.25" />
