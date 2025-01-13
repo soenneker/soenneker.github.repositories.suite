@@ -46,7 +46,7 @@
       <PackageReference Include="Soenneker.GitHub.Repositories.PullRequests" Version="3.0.203" />
       <PackageReference Include="Soenneker.GitHub.Repositories.Readmes" Version="3.0.157" />
       <PackageReference Include="Soenneker.GitHub.Repositories.Releases" Version="3.0.55" />
-      <PackageReference Include="Soenneker.GitHub.Repositories.Rulesets" Version="3.0.192" />
+      <PackageReference Include="Soenneker.GitHub.Repositories.Rulesets" Version="3.0.195" />
       <PackageReference Include="Soenneker.GitHub.Repositories.Secrets" Version="3.0.202" />
     </ItemGroup>
 </Project>
