@@ -45,7 +45,7 @@
       <PackageReference Include="Soenneker.GitHub.Repositories.Discussions" Version="3.0.30" />
       <PackageReference Include="Soenneker.GitHub.Repositories.Issues" Version="3.0.272" />
       <PackageReference Include="Soenneker.GitHub.Repositories.PullRequests" Version="3.0.388" />
-      <PackageReference Include="Soenneker.GitHub.Repositories.Readmes" Version="3.0.275" />
+      <PackageReference Include="Soenneker.GitHub.Repositories.Readmes" Version="3.0.277" />
       <PackageReference Include="Soenneker.GitHub.Repositories.Releases" Version="3.0.166" />
       <PackageReference Include="Soenneker.GitHub.Repositories.Rulesets" Version="3.0.393" />
       <PackageReference Include="Soenneker.GitHub.Repositories.Secrets" Version="3.0.322" />
