@@ -1,7 +1,6 @@
 using Soenneker.Tests.FixturedUnit;
 using Xunit;
 
-
 namespace Soenneker.GitHub.Repositories.Suite.Tests;
 
 [Collection("Collection")]
