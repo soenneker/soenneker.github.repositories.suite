@@ -16,26 +16,26 @@ public static class GitHubRepositorySuiteRegistrar
 {
     public static IServiceCollection AddGitHubRepositoriesSuiteAsSingleton(this IServiceCollection services)
     {
-        services.AddGitHubRepositoriesReleasesUtilAsSingleton();
-        services.AddGitHubRepositoriesReadmesUtilAsSingleton();
-        services.AddGitHubRepositoriesPullRequestsUtilAsSingleton();
-        services.AddGitHubRepositoriesSecretsUtilAsSingleton();
-        services.AddGitHubRepositoriesIssuesUtilAsSingleton();
-        services.AddGitHubRepositoriesRulesetsUtilAsSingleton();
-        services.AddGitHubRepositoriesDiscussionsUtilAsSingleton();
+        services.AddGitHubRepositoriesReleasesUtilAsSingleton()
+                .AddGitHubRepositoriesReadmesUtilAsSingleton()
+                .AddGitHubRepositoriesPullRequestsUtilAsSingleton()
+                .AddGitHubRepositoriesSecretsUtilAsSingleton()
+                .AddGitHubRepositoriesIssuesUtilAsSingleton()
+                .AddGitHubRepositoriesRulesetsUtilAsSingleton()
+                .AddGitHubRepositoriesDiscussionsUtilAsSingleton();
 
         return services;
     }
 
     public static IServiceCollection AddGitHubRepositoriesSuiteAsScoped(this IServiceCollection services)
     {
-        services.AddGitHubRepositoriesReleasesUtilAsScoped();
-        services.AddGitHubRepositoriesReadmesUtilAsScoped();
-        services.AddGitHubRepositoriesPullRequestsUtilAsScoped();
-        services.AddGitHubRepositoriesSecretsUtilAsScoped();
-        services.AddGitHubRepositoriesIssuesUtilAsScoped();
-        services.AddGitHubRepositoriesRulesetsUtilAsScoped();
-        services.AddGitHubRepositoriesDiscussionsUtilAsScoped();
+        services.AddGitHubRepositoriesReleasesUtilAsScoped()
+                .AddGitHubRepositoriesReadmesUtilAsScoped()
+                .AddGitHubRepositoriesPullRequestsUtilAsScoped()
+                .AddGitHubRepositoriesSecretsUtilAsScoped()
+                .AddGitHubRepositoriesIssuesUtilAsScoped()
+                .AddGitHubRepositoriesRulesetsUtilAsScoped()
+                .AddGitHubRepositoriesDiscussionsUtilAsScoped();
 
         return services;
     }
