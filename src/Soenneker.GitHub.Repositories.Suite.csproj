@@ -44,10 +44,11 @@
     <ItemGroup>
       <PackageReference Include="Soenneker.GitHub.Repositories.Discussions" Version="3.0.463" />
       <PackageReference Include="Soenneker.GitHub.Repositories.Issues" Version="3.0.485" />
+      <PackageReference Include="Soenneker.GitHub.Repositories.Pages" Version="3.0.2" />
       <PackageReference Include="Soenneker.GitHub.Repositories.PullRequests" Version="3.0.769" />
       <PackageReference Include="Soenneker.GitHub.Repositories.Readmes" Version="3.0.459" />
       <PackageReference Include="Soenneker.GitHub.Repositories.Releases" Version="3.0.366" />
-      <PackageReference Include="Soenneker.GitHub.Repositories.Rulesets" Version="3.0.737" />
+      <PackageReference Include="Soenneker.GitHub.Repositories.Rulesets" Version="3.0.738" />
       <PackageReference Include="Soenneker.GitHub.Repositories.Secrets" Version="3.0.508" />
     </ItemGroup>
 </Project>
