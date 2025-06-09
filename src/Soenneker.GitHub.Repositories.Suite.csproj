@@ -43,13 +43,13 @@
     
     <ItemGroup>
       <PackageReference Include="Soenneker.GitHub.Repositories.Discussions" Version="3.0.716" />
-      <PackageReference Include="Soenneker.GitHub.Repositories.Issues" Version="3.0.615" />
-      <PackageReference Include="Soenneker.GitHub.Repositories.Pages" Version="3.0.184" />
-      <PackageReference Include="Soenneker.GitHub.Repositories.PullRequests" Version="3.0.978" />
+      <PackageReference Include="Soenneker.GitHub.Repositories.Issues" Version="3.0.616" />
+      <PackageReference Include="Soenneker.GitHub.Repositories.Pages" Version="3.0.185" />
+      <PackageReference Include="Soenneker.GitHub.Repositories.PullRequests" Version="3.0.979" />
       <PackageReference Include="Soenneker.GitHub.Repositories.Readmes" Version="3.0.567" />
-      <PackageReference Include="Soenneker.GitHub.Repositories.Releases" Version="3.0.484" />
+      <PackageReference Include="Soenneker.GitHub.Repositories.Releases" Version="3.0.485" />
       <PackageReference Include="Soenneker.GitHub.Repositories.Rulesets" Version="3.0.934" />
       <PackageReference Include="Soenneker.GitHub.Repositories.Secrets" Version="3.0.620" />
-      <PackageReference Include="Soenneker.GitHub.Repositories.Subscriptions" Version="3.0.1" />
+      <PackageReference Include="Soenneker.GitHub.Repositories.Subscriptions" Version="3.0.2" />
     </ItemGroup>
 </Project>
