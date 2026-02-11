@@ -1,4 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Project Sdk="Microsoft.NET.Sdk">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>net10.0</TargetFramework>
@@ -32,23 +33,24 @@
         <LangVersion>latest</LangVersion>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageIcon>icon.png</PackageIcon>
-    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild></PropertyGroup>
-    
+        <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+    </PropertyGroup>
+
     <ItemGroup>
         <None Include="..\README.md" Pack="true" PackagePath="\" />
         <None Include="..\LICENSE" Pack="true" PackagePath="\" />
         <None Include="..\icon.png" Pack="true" PackagePath="\" />
     </ItemGroup>
-    
+
     <ItemGroup>
-      <PackageReference Include="Soenneker.GitHub.Repositories.Discussions" Version="4.0.1096" />
-      <PackageReference Include="Soenneker.GitHub.Repositories.Issues" Version="4.0.874" />
-      <PackageReference Include="Soenneker.GitHub.Repositories.Pages" Version="4.0.419" />
-      <PackageReference Include="Soenneker.GitHub.Repositories.PullRequests" Version="4.0.1476" />
-      <PackageReference Include="Soenneker.GitHub.Repositories.Readmes" Version="4.0.803" />
-      <PackageReference Include="Soenneker.GitHub.Repositories.Releases" Version="4.0.707" />
-      <PackageReference Include="Soenneker.GitHub.Repositories.Rulesets" Version="4.0.1210" />
-      <PackageReference Include="Soenneker.GitHub.Repositories.Secrets" Version="4.0.862" />
-      <PackageReference Include="Soenneker.GitHub.Repositories.Subscriptions" Version="4.0.167" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Discussions" Version="4.0.1097" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Issues" Version="4.0.874" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Pages" Version="4.0.419" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.PullRequests" Version="4.0.1478" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Readmes" Version="4.0.803" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Releases" Version="4.0.707" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Rulesets" Version="4.0.1211" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Secrets" Version="4.0.862" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Subscriptions" Version="4.0.167" />
     </ItemGroup>
 </Project>
