@@ -7,6 +7,7 @@ using Soenneker.GitHub.Repositories.Readmes.Registrars;
 using Soenneker.GitHub.Repositories.Releases.Registrars;
 using Soenneker.GitHub.Repositories.Rulesets.Registrars;
 using Soenneker.GitHub.Repositories.Secrets.Registrars;
+using Soenneker.GitHub.Repositories.Security.Registrars;
 using Soenneker.GitHub.Repositories.Subscriptions.Registrars;
 
 namespace Soenneker.GitHub.Repositories.Suite.Registrars;
@@ -26,7 +27,8 @@ public static class GitHubRepositorySuiteRegistrar
                 .AddGitHubRepositoriesRulesetsUtilAsSingleton()
                 .AddGitHubRepositoriesDiscussionsUtilAsSingleton()
                 .AddGitHubRepositoriesPagesUtilAsSingleton()
-                .AddGitHubRepositoriesSubscriptionsUtilAsSingleton();
+                .AddGitHubRepositoriesSubscriptionsUtilAsSingleton()
+                .AddGitHubRepositoriesSecurityUtilAsSingleton();
 
         return services;
     }
@@ -41,7 +43,8 @@ public static class GitHubRepositorySuiteRegistrar
                 .AddGitHubRepositoriesRulesetsUtilAsScoped()
                 .AddGitHubRepositoriesDiscussionsUtilAsScoped()
                 .AddGitHubRepositoriesPagesUtilAsScoped()
-                .AddGitHubRepositoriesSubscriptionsUtilAsScoped();
+                .AddGitHubRepositoriesSubscriptionsUtilAsScoped()
+                .AddGitHubRepositoriesSecurityUtilAsScoped();
 
         return services;
     }
