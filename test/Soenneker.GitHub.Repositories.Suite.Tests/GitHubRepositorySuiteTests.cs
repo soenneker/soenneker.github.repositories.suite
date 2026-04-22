@@ -1,16 +1,15 @@
-using Soenneker.Tests.FixturedUnit;
-using Xunit;
+using Soenneker.Tests.HostedUnit;
 
 namespace Soenneker.GitHub.Repositories.Suite.Tests;
 
-[Collection("Collection")]
-public class GitHubRepositorySuiteTests : FixturedUnitTest
+[ClassDataSource<Host>(Shared = SharedType.PerTestSession)]
+public class GitHubRepositorySuiteTests : HostedUnitTest
 {
-    public GitHubRepositorySuiteTests(Fixture fixture, ITestOutputHelper output) : base(fixture, output)
+    public GitHubRepositorySuiteTests(Host host) : base(host)
     {
     }
 
-    [Fact]
+    [Test]
     public void Default()
     { 
     }
