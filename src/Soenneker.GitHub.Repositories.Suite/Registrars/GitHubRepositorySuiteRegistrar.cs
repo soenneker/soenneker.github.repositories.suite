@@ -17,6 +17,11 @@ namespace Soenneker.GitHub.Repositories.Suite.Registrars;
 /// </summary>
 public static class GitHubRepositorySuiteRegistrar
 {
+    /// <summary>
+    /// Adds git hub repositories suite as singleton.
+    /// </summary>
+    /// <param name="services">The service collection.</param>
+    /// <returns>The result of the operation.</returns>
     public static IServiceCollection AddGitHubRepositoriesSuiteAsSingleton(this IServiceCollection services)
     {
         services.AddGitHubRepositoriesReleasesUtilAsSingleton()
@@ -33,6 +38,11 @@ public static class GitHubRepositorySuiteRegistrar
         return services;
     }
 
+    /// <summary>
+    /// Adds git hub repositories suite as scoped.
+    /// </summary>
+    /// <param name="services">The service collection.</param>
+    /// <returns>The result of the operation.</returns>
     public static IServiceCollection AddGitHubRepositoriesSuiteAsScoped(this IServiceCollection services)
     {
         services.AddGitHubRepositoriesReleasesUtilAsScoped()
