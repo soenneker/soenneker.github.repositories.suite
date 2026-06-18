@@ -52,7 +52,7 @@
         <PackageReference Include="Soenneker.GitHub.Repositories.Releases" Version="4.0.859" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Rulesets" Version="4.0.1433" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Secrets" Version="4.0.1014" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Security" Version="4.0.56" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Security" Version="4.0.59" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Subscriptions" Version="4.0.266" />
     </ItemGroup>
 </Project>
