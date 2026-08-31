@@ -13,7 +13,7 @@ using Soenneker.GitHub.Repositories.Subscriptions.Registrars;
 namespace Soenneker.GitHub.Repositories.Suite.Registrars;
 
 /// <summary>
-/// A comprehensive suite of utility libraries for GitHub's Repository related operations
+/// Registers the GitHub repository services included by the suite package.
 /// </summary>
 public static class GitHubRepositorySuiteRegistrar
 {
