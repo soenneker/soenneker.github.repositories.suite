@@ -44,15 +44,15 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.GitHub.Repositories.Discussions" Version="4.0.1538" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Issues" Version="4.0.1162" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Pages" Version="4.0.687" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.PullRequests" Version="4.0.1924" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Readmes" Version="4.0.1056" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Releases" Version="4.0.1018" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Rulesets" Version="4.0.1611" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Secrets" Version="4.0.1144" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Security" Version="4.0.146" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Subscriptions" Version="4.0.358" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Discussions" Version="4.0.1541" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Issues" Version="4.0.1163" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Pages" Version="4.0.690" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.PullRequests" Version="4.0.1925" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Readmes" Version="4.0.1057" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Releases" Version="4.0.1019" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Rulesets" Version="4.0.1614" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Secrets" Version="4.0.1145" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Security" Version="4.0.149" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Subscriptions" Version="4.0.359" />
     </ItemGroup>
 </Project>
