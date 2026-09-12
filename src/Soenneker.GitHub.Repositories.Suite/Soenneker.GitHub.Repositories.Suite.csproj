@@ -44,7 +44,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.GitHub.Repositories.Discussions" Version="4.0.1543" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Discussions" Version="4.0.1545" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Issues" Version="4.0.1165" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Pages" Version="4.0.692" />
         <PackageReference Include="Soenneker.GitHub.Repositories.PullRequests" Version="4.0.1927" />
