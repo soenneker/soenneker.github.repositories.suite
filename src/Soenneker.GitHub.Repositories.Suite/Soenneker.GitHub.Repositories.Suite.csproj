@@ -51,7 +51,7 @@
         <PackageReference Include="Soenneker.GitHub.Repositories.Readmes" Version="4.0.1065" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Releases" Version="4.0.1025" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Rulesets" Version="4.0.1625" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Secrets" Version="4.0.1154" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Secrets" Version="4.0.1155" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Security" Version="4.0.154" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Subscriptions" Version="4.0.364" />
     </ItemGroup>
