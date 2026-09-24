@@ -55,4 +55,7 @@
         <PackageReference Include="Soenneker.GitHub.Repositories.Security" Version="4.0.168" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Subscriptions" Version="4.0.376" />
     </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.12" />
+    </ItemGroup>
 </Project>
