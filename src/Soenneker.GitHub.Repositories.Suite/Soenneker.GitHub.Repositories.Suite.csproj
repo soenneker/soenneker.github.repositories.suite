@@ -45,16 +45,16 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.GitHub.Repositories.Discussions" Version="4.0.1580" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Issues" Version="4.0.1194" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Pages" Version="4.0.722" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.PullRequests" Version="4.0.1974" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Readmes" Version="4.0.1086" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Releases" Version="4.0.1055" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Discussions" Version="4.0.1581" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Issues" Version="4.0.1195" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Pages" Version="4.0.723" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.PullRequests" Version="4.0.1975" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Readmes" Version="4.0.1087" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Releases" Version="4.0.1056" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Rulesets" Version="4.0.1651" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Secrets" Version="4.0.1176" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Security" Version="4.0.171" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Subscriptions" Version="4.0.381" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Secrets" Version="4.0.1177" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Security" Version="4.0.173" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Subscriptions" Version="4.0.382" />
     </ItemGroup>
     <ItemGroup>
         <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.12" />
