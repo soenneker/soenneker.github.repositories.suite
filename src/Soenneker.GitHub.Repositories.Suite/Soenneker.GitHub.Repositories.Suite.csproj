@@ -45,10 +45,10 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.GitHub.Repositories.Discussions" Version="4.0.1587" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Discussions" Version="4.0.1588" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Issues" Version="4.0.1199" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Pages" Version="4.0.724" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.PullRequests" Version="4.0.1978" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.PullRequests" Version="4.0.1979" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Readmes" Version="4.0.1088" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Releases" Version="4.0.1058" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Rulesets" Version="4.0.1660" />
