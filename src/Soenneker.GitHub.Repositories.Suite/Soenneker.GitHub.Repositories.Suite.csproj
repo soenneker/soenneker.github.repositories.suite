@@ -52,7 +52,7 @@
         <PackageReference Include="Soenneker.GitHub.Repositories.PullRequests" Version="11.0.2042" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Readmes" Version="11.0.1119" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Releases" Version="11.0.1106" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Rulesets" Version="11.0.1714" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Rulesets" Version="11.0.1716" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Secrets" Version="11.0.1221" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Security" Version="11.0.212" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Subscriptions" Version="11.0.416" />
