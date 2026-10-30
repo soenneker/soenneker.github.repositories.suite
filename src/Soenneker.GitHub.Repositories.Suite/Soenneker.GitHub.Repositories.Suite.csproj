@@ -46,14 +46,14 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.GitHub.Repositories.Discussions" Version="11.0.1656" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Issues" Version="11.0.1252" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Pages" Version="11.0.767" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Discussions" Version="11.0.1657" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Issues" Version="11.0.1253" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Pages" Version="11.0.768" />
         <PackageReference Include="Soenneker.GitHub.Repositories.PullRequests" Version="11.0.2049" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Readmes" Version="11.0.1127" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Releases" Version="11.0.1111" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Rulesets" Version="11.0.1722" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Secrets" Version="11.0.1226" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Secrets" Version="11.0.1227" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Security" Version="11.0.220" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Subscriptions" Version="11.0.420" />
     </ItemGroup>
