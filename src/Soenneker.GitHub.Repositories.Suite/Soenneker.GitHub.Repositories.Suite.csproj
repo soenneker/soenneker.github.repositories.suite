@@ -46,16 +46,16 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.GitHub.Repositories.Discussions" Version="11.0.1659" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Discussions" Version="11.0.1660" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Issues" Version="11.0.1255" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Pages" Version="11.0.770" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Pages" Version="11.0.771" />
         <PackageReference Include="Soenneker.GitHub.Repositories.PullRequests" Version="11.0.2053" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Readmes" Version="11.0.1128" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Readmes" Version="11.0.1131" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Releases" Version="11.0.1112" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Rulesets" Version="11.0.1722" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Secrets" Version="11.0.1229" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Secrets" Version="11.0.1230" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Security" Version="11.0.223" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Subscriptions" Version="11.0.423" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Subscriptions" Version="11.0.424" />
     </ItemGroup>
     <ItemGroup>
     </ItemGroup>
