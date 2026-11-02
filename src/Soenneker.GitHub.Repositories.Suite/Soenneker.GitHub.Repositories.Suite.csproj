@@ -49,10 +49,10 @@
         <PackageReference Include="Soenneker.GitHub.Repositories.Discussions" Version="11.0.1664" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Issues" Version="11.0.1260" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Pages" Version="11.0.775" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.PullRequests" Version="11.0.2058" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.PullRequests" Version="11.0.2059" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Readmes" Version="11.0.1136" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Releases" Version="11.0.1117" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Rulesets" Version="11.0.1722" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Rulesets" Version="11.0.1723" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Secrets" Version="11.0.1234" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Security" Version="11.0.228" />
         <PackageReference Include="Soenneker.GitHub.Repositories.Subscriptions" Version="11.0.428" />
