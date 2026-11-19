@@ -46,16 +46,16 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.GitHub.Repositories.Discussions" Version="11.0.1723" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Issues" Version="11.0.1306" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Pages" Version="11.0.814" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.PullRequests" Version="11.0.2108" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Readmes" Version="11.0.1174" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Releases" Version="11.0.1163" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Rulesets" Version="11.0.1774" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Secrets" Version="11.0.1275" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Security" Version="11.0.270" />
-        <PackageReference Include="Soenneker.GitHub.Repositories.Subscriptions" Version="11.0.467" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Discussions" Version="11.0.1724" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Issues" Version="11.0.1307" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Pages" Version="11.0.815" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.PullRequests" Version="11.0.2109" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Readmes" Version="11.0.1175" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Releases" Version="11.0.1164" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Rulesets" Version="11.0.1775" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Secrets" Version="11.0.1276" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Security" Version="11.0.271" />
+        <PackageReference Include="Soenneker.GitHub.Repositories.Subscriptions" Version="11.0.468" />
     </ItemGroup>
     <ItemGroup>
     </ItemGroup>
